@@ -56,7 +56,6 @@ public class PlayerController : MonoBehaviour
             
             velocity.y = jumpHeight; // Move player up
         }
-
         rb.velocity = velocity; // Set velocity
     }
 }
