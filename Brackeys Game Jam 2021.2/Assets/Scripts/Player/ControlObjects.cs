@@ -6,9 +6,13 @@ using UnityEngine;
 
 public class ControlObjects : MonoBehaviour
 {
+    [Header("References")]
     public LayerMask controlLayer;
-    public ControlManager cm;
+    private ControlManager cm;
+    private Rigidbody2D rb;
     public KeyCode key;
+
+    [Header("Info")]
     public bool locked;
     public string input;
 
@@ -19,27 +23,51 @@ public class ControlObjects : MonoBehaviour
 
     [Header("Idle and floating settings")]
     public Vector2 floatDirection;
+    
     public bool timerStarted;
 
+    private void Awake() {
+        cm = GameObject.FindGameObjectWithTag("ControlManager").GetComponent<ControlManager>();
+        rb = GetComponent<Rigidbody2D>();
+    }
     // Update is called once per frame
     void Update()
     {   
         // Check if the object is dropped from the mouse
+        bool canLock = false;
         if (mouseSelected && Input.GetMouseButtonUp(0)){
             foreach (Transform point in cm.points){
-                if (Vector2.Distance(transform.position, point.position) < snappingDistance)
+                foreach (ControlObjects obj in cm.inputs){
+                    print(obj != this);
+                    if (obj != this && obj.locked && obj.input == point.name)
+                    {
+                        canLock = false;
+                        break;
+                    }
+                    if (Vector2.Distance(transform.position, point.position) < snappingDistance)
+                    {
+                        canLock = true;
+                    } 
+                    
+                }
+
+                if (canLock)
                 {
                     transform.position = point.position;
                     locked = true;
                     input = point.name;
                     break;
-                } 
+                }
+                
             }
+            cm.SetPlayerControls();
+            
         }
         mouseSelected = MouseOnObject();
 
         if (MouseOnObject()) MouseDragged(); // When the object is being dragged by the mouse
         else if (!locked && !MouseOnObject()) Floating(); // When the object is floating
+        else if (locked) Locked();
     }
 
     bool MouseOnObject(){
@@ -58,7 +86,8 @@ public class ControlObjects : MonoBehaviour
     }
     void Floating()
     {
-
+        if (floatDirection == Vector2.zero) floatDirection = new Vector2(Random.Range(-100,100)/100f, Random.Range(-100,100)/100f);
+        transform.position += (Vector3)floatDirection*cm.floatingSpeed;
     }
 
     void MouseDragged()
@@ -72,6 +101,7 @@ public class ControlObjects : MonoBehaviour
     }
 
     void Locked(){
+        floatDirection = Vector2.zero;
         if (!timerStarted) StartCoroutine(FloatTimer());
     }
 

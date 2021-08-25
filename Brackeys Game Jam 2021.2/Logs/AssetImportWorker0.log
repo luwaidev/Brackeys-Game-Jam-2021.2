@@ -12,11 +12,19 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 52206
 Successfully changed project path to: /Users/raphaelkwok/Downloads/Brackeys-Game-Jam-2021.2/Brackeys Game Jam 2021.2
 /Users/raphaelkwok/Downloads/Brackeys-Game-Jam-2021.2/Brackeys Game Jam 2021.2
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 76.13 ms, found 3 plugins.
+=======
+50949
+Successfully changed project path to: E:/Projects/Unity/Brackeys-Game-Jam-2021.2/Brackeys Game Jam 2021.2
+E:/Projects/Unity/Brackeys-Game-Jam-2021.2/Brackeys Game Jam 2021.2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.95 ms, found 3 plugins.
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.14f1 (d0d1bb862f9d)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -28,6 +36,7 @@ GfxDevice: creating device client; threaded=0
 2021-08-24 18:19:35.367 Unity[54964:4301765] Using device Intel(R) Iris(TM) Plus Graphics (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.14f1/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -44,10 +53,31 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (4350ms)
 		BeginReloadAssembly (69ms)
+=======
+Mono path[0] = 'C:/Downloads/Unity/Unity Editor Versions/2020.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Downloads/Unity/Unity Editor Versions/2020.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Downloads/Unity/Unity Editor Versions/2020.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Downloads/Unity/Unity Editor Versions/2020.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Downloads/Unity/Unity Editor Versions/2020.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002082 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 46.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1306ms)
+		BeginReloadAssembly (66ms)
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (2ms)
 		EndReloadAssembly (714ms)
 			LoadAssemblies (68ms)
@@ -63,12 +93,30 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (42ms)
 				ProcessInitializeOnLoadAttributes (170ms)
 				ProcessInitializeOnLoadMethodAttributes (48ms)
+=======
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (455ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.011539 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
@@ -79,10 +127,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (2119ms)
 		BeginReloadAssembly (289ms)
+=======
+Registered in 0.002486 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 42.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1235ms)
+		BeginReloadAssembly (169ms)
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (65ms)
 		EndReloadAssembly (1737ms)
 			LoadAssemblies (187ms)
@@ -91,9 +153,20 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (95ms)
 			SetupLoadedEditorAssemblies (641ms)
+=======
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (988ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (364ms)
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (125ms)
 				ProcessInitializeOnLoadAttributes (422ms)
@@ -115,6 +188,28 @@ System memory in use after: 173.9 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2598.
 Total: 3.025988 ms (FindLiveObjects: 0.241467 ms CreateObjectMapping: 0.084419 ms MarkObjects: 2.446359 ms  DeleteObjects: 0.252182 ms)
+=======
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.9 MB.
+System memory in use after: 94.8 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2598.
+Total: 3.689300 ms (FindLiveObjects: 0.343000 ms CreateObjectMapping: 0.234400 ms MarkObjects: 2.965800 ms  DeleteObjects: 0.144500 ms)
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -128,6 +223,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Scripts/Player/PlayerController.cs
   artifactKey: Guid(63984e3283a8a454eaa915cec8a94eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/Player/PlayerController.cs using Guid(63984e3283a8a454eaa915cec8a94eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5c88ac4a1db9c4372bfd2815b3df6e') in 5.673305 seconds 
@@ -1261,3 +1357,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  path: Assets/Plugins/Febucci
+  artifactKey: Guid(c0d1e0b9f41770a4592abc2bd9352f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Febucci using Guid(c0d1e0b9f41770a4592abc2bd9352f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1825e49e97003a2c346762b5a5179a7') in 0.014879 seconds 
+  Import took 0.019412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/TestCode.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestCode.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1542b70db966fc4d848ba7b746590e') in 0.022829 seconds 
+  Import took 0.028098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251395 seconds.
+  path: Assets/Plugins/Febucci/Text Animator
+  artifactKey: Guid(83777e63443b7ca458ac4bb84ce78038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Febucci/Text Animator using Guid(83777e63443b7ca458ac4bb84ce78038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c21c0d0a1adf56ac04c8488f4888e') in 0.016634 seconds 
+  Import took 0.022226 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> c2f780e47f67abc3aa384049d727d54968719370
