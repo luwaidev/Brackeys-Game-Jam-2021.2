@@ -16,11 +16,15 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     private Rigidbody2D rb;
     private BoxCollider2D bc;
+
     [Header("Movement Variables")]
     public bool movementLocked;
     public float speed;
     public float jumpHeight;
     public bool doubleJumped;
+    private float lastTimeJumped;
+    public float coyoteTime;
+    private bool wasGrounded;
     public Vector2 velocity;
     
     // Get references
@@ -52,9 +56,14 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKey(leftKey)) velocity.x = -speed; // Move left
         else velocity.x = 0;
 
-        if (Input.GetKeyDown(upKey) && (isGrounded() || !doubleJumped)){
+        // Check if just off ground
+        if (wasGrounded != isGrounded()){
+            lastTimeJumped = Time.realtimeSinceStartup;
+        }
+        wasGrounded = isGrounded();
+        if (Input.GetKeyDown(upKey) && ((isGrounded() || Time.realtimeSinceStartup-lastTimeJumped < coyoteTime)|| !doubleJumped)){
             
-            doubleJumped = !isGrounded(); // Check if on ground, and set the ability to double jump appropriately
+            doubleJumped = !isGrounded() && Time.realtimeSinceStartup-lastTimeJumped > coyoteTime; // Check if on ground or jumped because of coyote time, and set the ability to double jump appropriately
             
             velocity.y = jumpHeight; // Move player up
         }
