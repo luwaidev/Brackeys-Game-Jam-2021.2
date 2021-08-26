@@ -28,10 +28,31 @@ public class ControlManager : MonoBehaviour
     }
 
     public void SetPlayerControls(){
+        bool leftKey = false;
+        bool rightKey = false;
+        bool upKey = false;
         foreach (ControlObjects obj in inputs){
-            if (obj.input == "Left") player.leftKey = obj.key;
-            else if (obj.input == "Right") player.rightKey = obj.key;
-            else if (obj.input == "Up") player.upKey = obj.key;
+
+            
+            if (obj.input == "Left") 
+            {
+                player.leftKey = obj.key; 
+                leftKey = true;
+            }
+            else if (obj.input == "Right") 
+            {
+                player.rightKey = obj.key;
+                rightKey = true;
+            }
+            else if (obj.input == "Up") 
+            {
+                player.upKey = obj.key;
+                upKey = true;
+            }
         }
+
+        if (!leftKey) player.leftKey = KeyCode.None;
+        if (!rightKey) player.rightKey = KeyCode.None;
+        if (!upKey) player.upKey = KeyCode.None;
     }
 }

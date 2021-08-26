@@ -38,17 +38,16 @@ public class ControlObjects : MonoBehaviour
         if (mouseSelected && Input.GetMouseButtonUp(0)){
             foreach (Transform point in cm.points){
                 foreach (ControlObjects obj in cm.inputs){
-                    print(obj != this);
                     if (obj != this && obj.locked && obj.input == point.name)
                     {
                         canLock = false;
+                        input = "";
                         break;
                     }
                     if (Vector2.Distance(transform.position, point.position) < snappingDistance)
                     {
                         canLock = true;
                     } 
-                    
                 }
 
                 if (canLock)
@@ -87,7 +86,7 @@ public class ControlObjects : MonoBehaviour
     void Floating()
     {
         if (floatDirection == Vector2.zero) floatDirection = new Vector2(Random.Range(-100,100)/100f, Random.Range(-100,100)/100f);
-        transform.position += (Vector3)floatDirection*cm.floatingSpeed;
+        rb.velocity = floatDirection*cm.floatingSpeed;
     }
 
     void MouseDragged()
@@ -98,6 +97,7 @@ public class ControlObjects : MonoBehaviour
 
         locked = false;
         transform.position = mousePosition;
+        input = "";
     }
 
     void Locked(){

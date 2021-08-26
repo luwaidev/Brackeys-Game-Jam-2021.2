@@ -29,6 +29,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
     }
+    
 
     // Update is called once per frame
     void Update()
@@ -49,6 +50,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(rightKey) && Input.GetKey(leftKey)) velocity.x = 0; // Don't do anything if both inputs are held down
         else if (Input.GetKey(rightKey)) velocity.x = speed; // Move right
         else if (Input.GetKey(leftKey)) velocity.x = -speed; // Move left
+        else velocity.x = 0;
 
         if (Input.GetKeyDown(upKey) && (isGrounded() || !doubleJumped)){
             
