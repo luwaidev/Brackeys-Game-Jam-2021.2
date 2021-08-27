@@ -29,6 +29,11 @@ public class PlayerController : MonoBehaviour
     private float lastJumpInput;
     public float coyoteTime;
     private bool wasGrounded;
+
+    [Header("Candy Inventory")]
+    public bool hasBlueCandy;
+    public bool hasRedCandy;
+    public bool hasGreenCandy;
     
     // Get references
     private void Awake() 
@@ -77,5 +82,23 @@ public class PlayerController : MonoBehaviour
             velocity.y = jumpHeight; // Move player up
         }
         rb.velocity = velocity; // Set velocity
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if (other.tag == "Candy" && Input.GetKeyDown(KeyCode.F))
+        {
+            if (other.name == "Blue")
+            {
+                hasBlueCandy = true;
+            }
+            else if (other.name == "Red")
+            {
+                hasRedCandy = true;
+            }
+            else if (other.name == "Green")
+            {
+                hasGreenCandy = true;
+            }
+        }
     }
 }

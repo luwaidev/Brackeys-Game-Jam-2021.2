@@ -33,9 +33,11 @@ public class LevelManager : MonoBehaviour
 
     public void IncreaseTime(){
         timeToNewDelivery += timeToNewDelivery*timeIncreasePercentage;
+        failures += 1;
     }
     public void DecreaseTime(){
         timeToNewDelivery -= timeToNewDelivery*timeDecreasePercentage;
+        failures += 1;
     }
 
     IEnumerator Timer(){

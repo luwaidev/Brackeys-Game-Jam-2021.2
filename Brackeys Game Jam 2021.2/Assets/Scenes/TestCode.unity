@@ -1099,6 +1099,9 @@ MonoBehaviour:
   doubleJumped: 0
   velocity: {x: 0, y: 0}
   coyoteTime: 0.1
+  hasBlueCandy: 0
+  hasRedCandy: 0
+  hasGreenCandy: 0
 --- !u!61 &537252652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1453,13 +1456,15 @@ MonoBehaviour:
   - {fileID: 406018126}
   - {fileID: 2008828090}
   - {fileID: 493169027}
+  - {fileID: 175886107}
   inputs:
   - {fileID: 2145450155}
   - {fileID: 158550840}
   - {fileID: 1427837360}
+  - {fileID: 667131988}
   floatingSpeed: 0.1
-  timerMinTime: 1
-  timerMaxTime: 5
+  timerMinTime: 5
+  timerMaxTime: 15
 --- !u!4 &708000741
 Transform:
   m_ObjectHideFlags: 0
@@ -1603,8 +1608,9 @@ GameObject:
   - component: {fileID: 1001083680}
   - component: {fileID: 1001083682}
   - component: {fileID: 1001083681}
+  - component: {fileID: 1001083683}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1617,13 +1623,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001083679}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4.247307}
+  m_LocalRotation: {x: 0, y: -0, z: 0.7071068, w: -0.7071068}
+  m_LocalPosition: {x: -1.76, y: 0, z: 4.247307}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children: []
   m_Father: {fileID: 190550926}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270}
 --- !u!114 &1001083681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1640,9 +1646,10 @@ MonoBehaviour:
   arrowLayer:
     serializedVersion: 2
     m_Bits: 512
-  distance: 0
-  raycastDistance: 12
+  distance: 1
+  raycastDistance: 7
   speed: 0.005
+  snappingDistance: 2
 --- !u!212 &1001083682
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1683,7 +1690,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 2408971893050910953, guid: 18ded393901c1614a8da1fd99b56085b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1694,6 +1701,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1001083683
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001083679}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4aab703cb9264f147982666a8987f102, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1122219986
 GameObject:
   m_ObjectHideFlags: 0
@@ -1815,7 +1841,7 @@ GameObject:
   - component: {fileID: 1279879550}
   - component: {fileID: 1279879549}
   - component: {fileID: 1279879552}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1835,8 +1861,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerInRange: 0
-  active: 0
+  active: 1
   timeActive: 0
+  requiredCandy: 0
+  maxDeliveryTime: 10000
 --- !u!212 &1279879550
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1972,7 +2000,7 @@ GameObject:
   - component: {fileID: 1403733618}
   m_Layer: 0
   m_Name: LevelManager
-  m_TagString: Untagged
+  m_TagString: LevelManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1996,6 +2024,8 @@ MonoBehaviour:
   failures: 0
   timeToNewDelivery: 4
   timerActive: 0
+  timeIncreasePercentage: 0
+  timeDecreasePercentage: 0
 --- !u!4 &1403733619
 Transform:
   m_ObjectHideFlags: 0
@@ -2915,6 +2945,8 @@ MonoBehaviour:
   playerInRange: 0
   active: 0
   timeActive: 0
+  requiredCandy: 0
+  maxDeliveryTime: 10
 --- !u!212 &1633352672
 SpriteRenderer:
   m_ObjectHideFlags: 0
