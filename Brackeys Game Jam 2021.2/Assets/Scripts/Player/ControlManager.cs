@@ -33,7 +33,6 @@ public class ControlManager : MonoBehaviour
         bool upKey = false;
         bool downKey = false;
         foreach (ControlObjects obj in inputs){
-
             
             if (obj.input == "Left") 
             {

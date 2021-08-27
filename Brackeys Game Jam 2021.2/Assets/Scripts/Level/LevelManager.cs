@@ -13,8 +13,12 @@ public class LevelManager : MonoBehaviour
     [Header("Variables")]
     public float deliveries;
     public int failures;
+
+    [Header("Delivery variables")]
     public float timeToNewDelivery;
     public bool timerActive;
+    public float timeIncreasePercentage;
+    public float timeDecreasePercentage;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +29,13 @@ public class LevelManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void IncreaseTime(){
+        timeToNewDelivery += timeToNewDelivery*timeIncreasePercentage;
+    }
+    public void DecreaseTime(){
+        timeToNewDelivery -= timeToNewDelivery*timeDecreasePercentage;
     }
 
     IEnumerator Timer(){

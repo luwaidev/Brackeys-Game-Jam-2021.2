@@ -11,6 +11,8 @@ public class DoorObject : MonoBehaviour
     public bool playerInRange;
     public bool active;
     public float timeActive;
+
+    public float maxDeliveryTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,9 +25,20 @@ public class DoorObject : MonoBehaviour
         if (playerInRange && Input.GetKeyDown(KeyCode.F)){
             active = false;
             timeActive = 0;
+            lm.DecreaseTime();
         }
 
-        if (active) timeActive += Time.deltaTime;
+        if (active) 
+        {
+            timeActive += Time.deltaTime; 
+            
+            if (timeActive > maxDeliveryTime)
+            {
+                active = false;
+                lm.IncreaseTime();
+            }
+        }
+        
     }
     public void SetActive(){
         active = true;
