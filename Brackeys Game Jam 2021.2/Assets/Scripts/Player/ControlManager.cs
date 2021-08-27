@@ -31,8 +31,8 @@ public class ControlManager : MonoBehaviour
         bool leftKey = false;
         bool rightKey = false;
         bool upKey = false;
+        bool downKey = false;
         foreach (ControlObjects obj in inputs){
-
             
             if (obj.input == "Left") 
             {
@@ -49,10 +49,16 @@ public class ControlManager : MonoBehaviour
                 player.upKey = obj.key;
                 upKey = true;
             }
+            else if (obj.input == "Down") 
+            {
+                player.downKey = obj.key;
+                downKey = true;
+            }
         }
 
         if (!leftKey) player.leftKey = KeyCode.None;
         if (!rightKey) player.rightKey = KeyCode.None;
         if (!upKey) player.upKey = KeyCode.None;
+        if (!downKey) player.downKey = KeyCode.None;
     }
 }

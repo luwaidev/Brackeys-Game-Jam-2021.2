@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ControlManager
   - LevelManager
+  - CameraWall
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Ground
   - Control
   - ControlWalls
-  - 
+  - Arrow
   - 
   - 
   - 

@@ -22,10 +22,13 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpHeight;
     public bool doubleJumped;
+    public Vector2 velocity;
+
+    [Header("Coyote Time variables")]
     private float lastTimeJumped;
+    private float lastJumpInput;
     public float coyoteTime;
     private bool wasGrounded;
-    public Vector2 velocity;
     
     // Get references
     private void Awake() 
@@ -61,7 +64,13 @@ public class PlayerController : MonoBehaviour
             lastTimeJumped = Time.realtimeSinceStartup;
         }
         wasGrounded = isGrounded();
-        if (Input.GetKeyDown(upKey) && ((isGrounded() || Time.realtimeSinceStartup-lastTimeJumped < coyoteTime)|| !doubleJumped)){
+
+        if (Input.GetKeyDown(upKey))
+        {
+            lastJumpInput = Time.realtimeSinceStartup;
+        } 
+        // If inputted the jump key, and is on the ground, left the ground no longer than coyote time, or is grounded and pressed jump while in the air
+        if ((Input.GetKeyDown(upKey) || Time.realtimeSinceStartup-lastJumpInput < coyoteTime && isGrounded()) && ((isGrounded() || Time.realtimeSinceStartup-lastTimeJumped < coyoteTime )|| !doubleJumped)){
             
             doubleJumped = !isGrounded() && Time.realtimeSinceStartup-lastTimeJumped > coyoteTime; // Check if on ground or jumped because of coyote time, and set the ability to double jump appropriately
             
