@@ -10,6 +10,7 @@ public class ControlObjects : MonoBehaviour
     public LayerMask controlLayer;
     private ControlManager cm;
     private Rigidbody2D rb;
+    private Animator anim;
     public KeyCode key;
 
     [Header("Info")]
@@ -29,6 +30,7 @@ public class ControlObjects : MonoBehaviour
     private void Awake() {
         cm = GameObject.FindGameObjectWithTag("ControlManager").GetComponent<ControlManager>();
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
@@ -87,6 +89,7 @@ public class ControlObjects : MonoBehaviour
     {
         if (floatDirection == Vector2.zero) floatDirection = new Vector2(Random.Range(-100,100)/100f, Random.Range(-100,100)/100f);
         rb.velocity = floatDirection*cm.floatingSpeed;
+        anim.SetBool("Floating", true);
     }
 
     void MouseDragged()
@@ -98,17 +101,29 @@ public class ControlObjects : MonoBehaviour
         locked = false;
         transform.position = mousePosition;
         input = "";
+        StopAllCoroutines();
+        anim.SetTrigger("Stop");
+
+        anim.SetBool("Floating", true);
     }
 
     void Locked(){
         floatDirection = Vector2.zero;
         if (!timerStarted) StartCoroutine(FloatTimer());
+        anim.SetBool("Floating", false);
     }
 
     IEnumerator FloatTimer(){
-        yield return new WaitForSeconds(Random.Range(cm.timerMinTime, cm.timerMaxTime));
+        float time = Random.Range(cm.timerMinTime, cm.timerMaxTime);
 
-        locked = false;
+        yield return new WaitForSeconds(time - time/3);
+
+        anim.SetTrigger("Shake");
+
+        yield return new WaitForSeconds(time - time/3);
+
+        anim.SetTrigger("Pop");
+        locked = false; 
     }   
 
 }
