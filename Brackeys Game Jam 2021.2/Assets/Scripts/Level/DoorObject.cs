@@ -9,6 +9,10 @@ public class DoorObject : MonoBehaviour
     private LevelManager lm;
     private PlayerController player;
     public TMP_Text textBox;
+    public bool disabled;
+    public Sprite redSprite;
+    public Sprite blueSprite;
+    public Sprite greenSprite;
 
     [Header("Variables")]
     public bool playerInRange;
@@ -27,24 +31,27 @@ public class DoorObject : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool hasCandy = (requiredCandy == 0 && player.hasRedCandy) || (requiredCandy == 1 && player.hasBlueCandy) || (requiredCandy == 2 && player.hasGreenCandy);
-        if (playerInRange && Input.GetKeyDown(KeyCode.F) && hasCandy){
-            active = false;
-            timeActive = 0;
-            lm.DecreaseTime();
-            StartCoroutine(Timer());
-        }
-
-        if (active) 
-        {
-            timeActive += Time.deltaTime; 
-            
-            if (timeActive > maxDeliveryTime)
-            {
+        if (!disabled){
+            bool hasCandy = (requiredCandy == 0 && player.hasRedCandy) || (requiredCandy == 1 && player.hasBlueCandy) || (requiredCandy == 2 && player.hasGreenCandy);
+            if (playerInRange && Input.GetKeyDown(KeyCode.F) && hasCandy){
                 active = false;
-                lm.IncreaseTime();
+                timeActive = 0;
+                lm.DecreaseTime();
+                StartCoroutine(Timer());
+            }
+
+            if (active) 
+            {
+                timeActive += Time.deltaTime; 
+                
+                if (timeActive > maxDeliveryTime)
+                {
+                    active = false;
+                    lm.IncreaseTime();
+                }
             }
         }
+        
         
     }
     public void SetActive(){

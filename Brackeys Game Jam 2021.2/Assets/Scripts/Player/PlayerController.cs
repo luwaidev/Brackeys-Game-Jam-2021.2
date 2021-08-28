@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
     private Rigidbody2D rb;
     private BoxCollider2D bc;
+    private SpriteRenderer sr;
+    private Animator anim;
 
     [Header("Movement Variables")]
     public bool movementLocked;
@@ -40,6 +42,8 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         bc = GetComponent<BoxCollider2D>();
+        sr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
     
 
@@ -47,12 +51,24 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Movement();
+        Animations();
     }
     
     bool isGrounded()
     {
         RaycastHit2D ray = Physics2D.BoxCast(bc.bounds.center, bc.bounds.size, 0f, Vector2.down, 0.1f, groundLayer);
         return ray;
+    }
+
+    void Animations()
+    {
+        if (Input.GetKey(leftKey) || Input.GetKey(rightKey)) anim.SetBool("isRun", true);
+        else anim.SetBool("isRun", false);
+
+        anim.SetBool("isGrounded", isGrounded());
+        
+        if (Input.GetKey(rightKey)) transform.localScale = new Vector2(1,1);
+        else if (Input.GetKey(leftKey)) transform.localScale = new Vector2(-1,1);;
     }
 
     void Movement()
@@ -80,6 +96,9 @@ public class PlayerController : MonoBehaviour
             doubleJumped = !isGrounded() && Time.realtimeSinceStartup-lastTimeJumped > coyoteTime; // Check if on ground or jumped because of coyote time, and set the ability to double jump appropriately
             
             velocity.y = jumpHeight; // Move player up
+
+            if (!doubleJumped)anim.SetTrigger("Jump"); // Set jump animation
+            else anim.SetTrigger("DoubleJump");
         }
         rb.velocity = velocity; // Set velocity
     }

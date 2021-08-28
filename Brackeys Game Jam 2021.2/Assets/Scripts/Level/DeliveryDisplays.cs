@@ -5,7 +5,7 @@ using UnityEngine;
 public class DeliveryDisplays : MonoBehaviour
 {
     [Header("References")]
-    public GameObject[] icons;
+    public SpriteRenderer[] icons;
     public DoorObject[] doors;
 
     [Header("Positions")]
@@ -33,12 +33,12 @@ public class DeliveryDisplays : MonoBehaviour
                 if (activeDeliveries.Find(door => door.GetInstanceID() == doors[i].GetInstanceID())) activeDeliveries.Remove(doors[i]);
 
                 // If the icon active, slide up out of view and then set to idle position
-                Vector2 position = new Vector2(icons[i].transform.position.x, idlePosition.y);
-                if (icons[i].transform.position.y < idlePosition.y-0.25f){
-                    icons[i].transform.position = Vector2.Lerp(icons[i].transform.position, position, slideSpeed);
+                Vector2 position = new Vector2(icons[i].transform.localPosition.x, idlePosition.y);
+                if (icons[i].transform.localPosition.y < idlePosition.y-0.25f){
+                    icons[i].transform.localPosition = Vector2.Lerp(icons[i].transform.localPosition, position, slideSpeed);
                 }   else 
                 {
-                    icons[i].transform.position = idlePosition;
+                    icons[i].transform.localPosition = idlePosition;
                 }
             }
             else 
@@ -49,15 +49,18 @@ public class DeliveryDisplays : MonoBehaviour
                 Vector2 position = new Vector2(activePosition.x + activeDeliveries.FindIndex(door => door.GetInstanceID() == doors[i].GetInstanceID())*margins,activePosition.y);
 
                 // If the icon is not already active, set x position and slide into y, if not, slide towards new x position
-                if (icons[i].transform.position.y > idlePosition.y-0.25f)
+                if (icons[i].transform.localPosition.y > idlePosition.y-0.25f)
                 {
-                    icons[i].transform.position = new Vector2(position.x, icons[i].transform.position.y);
+                    icons[i].transform.localPosition = new Vector2(position.x, icons[i].transform.localPosition.y);
                 }
 
-                icons[i].transform.GetChild(0).localScale = new Vector2(defaultSliderLength*doors[i].maxDeliveryTime/doors[i].timeActive ,icons[i].transform.GetChild(0).localScale.y);
+                icons[i].transform.GetChild(0).localScale = new Vector2(defaultSliderLength-defaultSliderLength*doors[i].timeActive/doors[i].maxDeliveryTime ,icons[i].transform.GetChild(0).localScale.y);
 
                 // Slide to position
-                icons[i].transform.position = Vector2.Lerp(icons[i].transform.position, position, slideSpeed);
+                icons[i].transform.localPosition = Vector2.Lerp(icons[i].transform.localPosition, position, slideSpeed);
+                if (doors[i].requiredCandy == 0) icons[i].sprite = doors[i].redSprite;
+                else if (doors[i].requiredCandy == 1) icons[i].sprite = doors[i].blueSprite;
+                else if (doors[i].requiredCandy == 2) icons[i].sprite = doors[i].greenSprite;
             }
         }
     

@@ -56,7 +56,7 @@ public class LevelManager : MonoBehaviour
 
         while (doorAvailable)
         {
-            int index = Random.Range(0, doors.Length);
+            int index = Random.Range(0, doors.Length-1);
             if (!doors[index].active)
             {
                 doors[index].active = true;

@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: d645b9f731668184d81e107d0689e008
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -799983754158912286
+    second: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_0
+  - first:
+      213: -5563098446240707515
+    second: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_1
+  - first:
+      213: -3292324058943125690
+    second: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_2
+  - first:
+      213: -3449649692966377331
+    second: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +113,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec464b9303e5e4f0800000000000000
+      internalID: -799983754158912286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c8b4d0077ebc2b0800000000000000
+      internalID: -5563098446240707515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647093d36b05f42d0800000000000000
+      internalID: -3292324058943125690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FISH_BOWL_CHARACTER_RUNNING_ANIMATION-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88243b91e16020d0800000000000000
+      internalID: -3449649692966377331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

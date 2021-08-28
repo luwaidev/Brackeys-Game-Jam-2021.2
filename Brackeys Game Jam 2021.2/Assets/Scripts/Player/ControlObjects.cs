@@ -35,6 +35,7 @@ public class ControlObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+
         // Check if the object is dropped from the mouse
         bool canLock = false;
         if (mouseSelected && Input.GetMouseButtonUp(0)){
@@ -64,21 +65,27 @@ public class ControlObjects : MonoBehaviour
             cm.SetPlayerControls();
             
         }
-        mouseSelected = MouseOnObject();
+        
+        if (MouseOnObject()) mouseSelected = true;
+        if (Input.GetMouseButtonUp(0)) mouseSelected = false;
 
-        if (MouseOnObject()) MouseDragged(); // When the object is being dragged by the mouse
+        if (mouseSelected) MouseDragged(); // When the object is being dragged by the mouse
         else if (!locked && !MouseOnObject()) Floating(); // When the object is floating
         else if (locked) Locked();
+
     }
 
     bool MouseOnObject(){
         // Get mouse input
-        Vector2 mousePosition = Input.mousePosition;
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition.z = 10;
+
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         // Check if mouse might be in range
         if (Vector2.Distance(transform.position, mousePosition) < mouseRadius)
         {
+            
             //  Raycast if mouse on position
             RaycastHit2D ray = Physics2D.Raycast(mousePosition, Vector2.up, 0.01f, controlLayer);
             return ray && ray.collider.gameObject == gameObject && Input.GetMouseButton(0);
@@ -95,7 +102,8 @@ public class ControlObjects : MonoBehaviour
     void MouseDragged()
     {
         // Get mouse input
-        Vector2 mousePosition = Input.mousePosition;
+        Vector3 mousePosition = Input.mousePosition;
+        mousePosition.z = 10;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         locked = false;

@@ -43,6 +43,7 @@ public class ArrowController : MonoBehaviour
                     cameraWallPosition = obj.point;
                     break;
                 }
+                 
             }
 
 
