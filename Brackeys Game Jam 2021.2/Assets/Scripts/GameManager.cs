@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 // Controls all entering and exiting scenes, as well as saving high score
 
@@ -15,6 +16,10 @@ public class GameManager : MonoBehaviour
 
     public bool sceneLoading;
     public bool paused;
+
+    [Header("In Game references")]
+    private LevelManager lm;
+    public int bestScore;
 
     private void Awake() {
         if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) Destroy(gameObject);
@@ -32,6 +37,8 @@ public class GameManager : MonoBehaviour
         if (mc != null) transform.position = mc.transform.position;
 
         Pause();
+        InGame();
+        InMenu();
     }
 
     public void Play(){
@@ -50,6 +57,13 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForEndOfFrame();
         
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            lm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
+        }   else if (SceneManager.GetActiveScene().name == "Menu")
+        {
+            GameObject.Find("Score").GetComponent<TMP_Text>().text = bestScore.ToString();
+        }
         mc = Camera.main.gameObject;
         sceneLoading = false;
     }
@@ -68,5 +82,18 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 1;
             pauseObject.SetActive(false);
         }
+    }
+
+    void InGame()
+    {
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            if (lm.deliveries > bestScore) bestScore = lm.deliveries;
+        }
+    }
+
+    void InMenu()
+    {
+        
     }
 }

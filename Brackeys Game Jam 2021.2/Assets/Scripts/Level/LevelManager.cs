@@ -11,7 +11,7 @@ public class LevelManager : MonoBehaviour
     public DoorObject[] doors;
 
     [Header("Variables")]
-    public float deliveries;
+    public int deliveries;
     public int failures;
 
     [Header("Delivery variables")]
@@ -38,7 +38,7 @@ public class LevelManager : MonoBehaviour
     }
     public void DecreaseTime(){
         timeToNewDelivery -= timeToNewDelivery*timeDecreasePercentage;
-        failures += 1;
+        deliveries += 1;
     }
 
     IEnumerator Timer(){
