@@ -103,27 +103,33 @@ public class ControlObjects : MonoBehaviour
         input = "";
         StopAllCoroutines();
         anim.SetTrigger("Stop");
+        cm.SetPlayerControls();
 
         anim.SetBool("Floating", true);
     }
 
     void Locked(){
         floatDirection = Vector2.zero;
+        rb.velocity = Vector2.zero;
         if (!timerStarted) StartCoroutine(FloatTimer());
         anim.SetBool("Floating", false);
     }
 
     IEnumerator FloatTimer(){
+        timerStarted = true;
         float time = Random.Range(cm.timerMinTime, cm.timerMaxTime);
 
         yield return new WaitForSeconds(time - time/3);
 
         anim.SetTrigger("Shake");
 
-        yield return new WaitForSeconds(time - time/3);
+        yield return new WaitForSeconds(time/3);
 
+        timerStarted = false;
+        input = "";
         anim.SetTrigger("Pop");
         locked = false; 
+        cm.SetPlayerControls();
     }   
 
 }
