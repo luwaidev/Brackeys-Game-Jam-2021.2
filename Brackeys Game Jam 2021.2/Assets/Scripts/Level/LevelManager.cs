@@ -20,6 +20,11 @@ public class LevelManager : MonoBehaviour
     public float timeIncreasePercentage;
     public float timeDecreasePercentage;
     public string[] text;
+
+    [Header("Delivery time")]
+    public float deliveryTime;
+    public float deliveryTimeIncreasePercentage;
+    public float deliveryTimeDecreasePercentage;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,10 +39,12 @@ public class LevelManager : MonoBehaviour
 
     public void IncreaseTime(){
         timeToNewDelivery += timeToNewDelivery*timeIncreasePercentage;
+        deliveryTime += deliveryTime*deliveryTimeIncreasePercentage;
         failures += 1;
     }
     public void DecreaseTime(){
         timeToNewDelivery -= timeToNewDelivery*timeDecreasePercentage;
+        deliveryTime -= deliveryTime*deliveryTimeDecreasePercentage;
         deliveries += 1;
     }
 
@@ -60,6 +67,7 @@ public class LevelManager : MonoBehaviour
             if (!doors[index].active)
             {
                 doors[index].active = true;
+                doors[index].maxDeliveryTime = deliveryTime;
                 doorAvailable = false;
                 break;
             }

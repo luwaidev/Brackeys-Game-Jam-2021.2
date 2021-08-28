@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("In Game references")]
     private LevelManager lm;
     public int bestScore;
+    public int previousScore;
 
     private void Awake() {
         if (GameObject.FindGameObjectsWithTag("GameManager").Length > 1) Destroy(gameObject);
@@ -38,7 +39,6 @@ public class GameManager : MonoBehaviour
 
         Pause();
         InGame();
-        InMenu();
     }
 
     public void Play(){
@@ -62,7 +62,8 @@ public class GameManager : MonoBehaviour
             lm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
         }   else if (SceneManager.GetActiveScene().name == "Menu")
         {
-            GameObject.Find("Score").GetComponent<TMP_Text>().text = bestScore.ToString();
+            GameObject.Find("BestScore").GetComponent<TMP_Text>().text = bestScore.ToString();
+            GameObject.Find("PreviousScore").GetComponent<TMP_Text>().text = bestScore.ToString();
         }
         mc = Camera.main.gameObject;
         sceneLoading = false;
@@ -89,11 +90,9 @@ public class GameManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Game")
         {
             if (lm.deliveries > bestScore) bestScore = lm.deliveries;
+            previousScore = lm.deliveries;
+            if (!sceneLoading && lm.failures >= 3) LoadNewScene("Menu");
         }
     }
 
-    void InMenu()
-    {
-        
-    }
 }
