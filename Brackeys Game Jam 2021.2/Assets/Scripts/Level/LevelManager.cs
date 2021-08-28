@@ -19,6 +19,7 @@ public class LevelManager : MonoBehaviour
     public bool timerActive;
     public float timeIncreasePercentage;
     public float timeDecreasePercentage;
+    public string[] text;
     // Start is called before the first frame update
     void Start()
     {

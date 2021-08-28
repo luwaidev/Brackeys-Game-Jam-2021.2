@@ -14,6 +14,7 @@ public class DeliveryDisplays : MonoBehaviour
     public List<DoorObject> activeDeliveries;
     public float margins;
     public float slideSpeed;
+    public float defaultSliderLength;
 
     
 
@@ -52,6 +53,8 @@ public class DeliveryDisplays : MonoBehaviour
                 {
                     icons[i].transform.position = new Vector2(position.x, icons[i].transform.position.y);
                 }
+
+                icons[i].transform.GetChild(0).localScale = new Vector2(defaultSliderLength*doors[i].maxDeliveryTime/doors[i].timeActive ,icons[i].transform.GetChild(0).localScale.y);
 
                 // Slide to position
                 icons[i].transform.position = Vector2.Lerp(icons[i].transform.position, position, slideSpeed);

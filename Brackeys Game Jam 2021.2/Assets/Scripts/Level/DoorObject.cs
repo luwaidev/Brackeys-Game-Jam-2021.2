@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DoorObject : MonoBehaviour
 {
     [Header("References")]
     private LevelManager lm;
     private PlayerController player;
+    public TMP_Text textBox;
 
     [Header("Variables")]
     public bool playerInRange;
@@ -14,6 +16,7 @@ public class DoorObject : MonoBehaviour
     public float timeActive;
     public int requiredCandy;
     public float maxDeliveryTime;
+    public float textTime;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +32,7 @@ public class DoorObject : MonoBehaviour
             active = false;
             timeActive = 0;
             lm.DecreaseTime();
+            StartCoroutine(Timer());
         }
 
         if (active) 
@@ -54,5 +58,11 @@ public class DoorObject : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D other) {
         playerInRange = !(other.tag == "Player");
+    }
+
+    IEnumerator Timer(){
+        textBox.text = lm.text[Random.Range(0, lm.text.Length)];
+        yield return new WaitForSeconds(textTime);
+        textBox.text = "";
     }
 }

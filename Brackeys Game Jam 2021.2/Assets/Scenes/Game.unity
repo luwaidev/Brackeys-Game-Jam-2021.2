@@ -12112,12 +12112,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e2a1f5191be2ef40b688b05bf426410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 551322198}
   cameraSize: 0
   cameraSpeed: 0.125
   offset: {x: 0, y: 2, z: -10}
-  maxPositions: {x: 0, y: 0}
-  minPositions: {x: 0, y: 0}
+  maxPositions: {x: 100, y: 100}
+  minPositions: {x: -100, y: -100}
 --- !u!81 &1338229311
 AudioListener:
   m_ObjectHideFlags: 0
