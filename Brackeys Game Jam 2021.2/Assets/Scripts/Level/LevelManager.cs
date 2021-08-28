@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 // Controls the level, which doors are open, where the player needs to go
 
@@ -9,6 +10,7 @@ public class LevelManager : MonoBehaviour
 
     [Header("References")]
     public DoorObject[] doors;
+    public TMP_Text scoreText;
 
     [Header("Variables")]
     public int deliveries;
@@ -34,7 +36,7 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        scoreText.text = deliveries.ToString();
     }
 
     public void IncreaseTime(){

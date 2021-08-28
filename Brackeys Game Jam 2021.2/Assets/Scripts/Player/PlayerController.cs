@@ -36,6 +36,10 @@ public class PlayerController : MonoBehaviour
     public bool hasBlueCandy;
     public bool hasRedCandy;
     public bool hasGreenCandy;
+    public SpriteRenderer redCandy;
+    public SpriteRenderer blueCandy;
+    public SpriteRenderer greenCandy;
+    public Sprite[] sprites;
     
     // Get references
     private void Awake() 
@@ -52,6 +56,7 @@ public class PlayerController : MonoBehaviour
     {
         Movement();
         Animations();
+        ChangeCandyUI();
     }
     
     bool isGrounded()
@@ -119,5 +124,17 @@ public class PlayerController : MonoBehaviour
                 hasGreenCandy = true;
             }
         }
+    }
+
+    void ChangeCandyUI()
+    {
+        if (!hasRedCandy) redCandy.sprite = sprites[0];
+        else redCandy.sprite = sprites[1];
+
+        if (!hasBlueCandy) blueCandy.sprite = sprites[2];
+        else blueCandy.sprite = sprites[3];
+
+        if (!hasGreenCandy) greenCandy.sprite = sprites[4];
+        else greenCandy.sprite = sprites[5];
     }
 }
