@@ -19,7 +19,7 @@ TagManager:
   - Control
   - ControlWalls
   - Arrow
-  - 
+  - Background
   - 
   - 
   - 
@@ -47,4 +47,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 766478721
+    locked: 0
+  - name: BG
+    uniqueID: 3015242389
     locked: 0
