@@ -14,4 +14,8 @@ public class MainMenu : MonoBehaviour
     public void Play(){
         gm.Play();
     }
+
+    public void ReturnToMenu(){
+        gm.ReturnToMenu();
+    }
 }

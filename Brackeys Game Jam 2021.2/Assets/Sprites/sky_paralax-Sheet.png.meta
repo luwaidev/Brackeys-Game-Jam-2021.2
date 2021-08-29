@@ -1,0 +1,4824 @@
+fileFormatVersion: 2
+guid: 3368ba2acb4b4ff489398adf7d091024
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6188908261199589496
+    second: sky_paralax-Sheet_0
+  - first:
+      213: -7533752497842726118
+    second: sky_paralax-Sheet_1
+  - first:
+      213: 6693828810048865844
+    second: sky_paralax-Sheet_2
+  - first:
+      213: -8031315129776675489
+    second: sky_paralax-Sheet_3
+  - first:
+      213: -7310422910957263281
+    second: sky_paralax-Sheet_4
+  - first:
+      213: -178270817142277251
+    second: sky_paralax-Sheet_5
+  - first:
+      213: 5896526490767877190
+    second: sky_paralax-Sheet_6
+  - first:
+      213: -7530126257589376249
+    second: sky_paralax-Sheet_7
+  - first:
+      213: 1180445318693803395
+    second: sky_paralax-Sheet_8
+  - first:
+      213: -3461805450148385271
+    second: sky_paralax-Sheet_9
+  - first:
+      213: -5433978702368575886
+    second: sky_paralax-Sheet_10
+  - first:
+      213: -8338686865140159434
+    second: sky_paralax-Sheet_11
+  - first:
+      213: -4412499768243104023
+    second: sky_paralax-Sheet_12
+  - first:
+      213: 2341726165692442112
+    second: sky_paralax-Sheet_13
+  - first:
+      213: 163785807225129434
+    second: sky_paralax-Sheet_14
+  - first:
+      213: 8238976767771338531
+    second: sky_paralax-Sheet_15
+  - first:
+      213: 6360649811790498564
+    second: sky_paralax-Sheet_16
+  - first:
+      213: 8222681030818896977
+    second: sky_paralax-Sheet_17
+  - first:
+      213: -2822966021646804739
+    second: sky_paralax-Sheet_18
+  - first:
+      213: 3990942792055889572
+    second: sky_paralax-Sheet_19
+  - first:
+      213: 3791505352786059219
+    second: sky_paralax-Sheet_20
+  - first:
+      213: -4440161532621920349
+    second: sky_paralax-Sheet_21
+  - first:
+      213: 7298174611399246782
+    second: sky_paralax-Sheet_22
+  - first:
+      213: 7681823990858677318
+    second: sky_paralax-Sheet_23
+  - first:
+      213: 6145491820850124650
+    second: sky_paralax-Sheet_24
+  - first:
+      213: 1654872931983449851
+    second: sky_paralax-Sheet_25
+  - first:
+      213: -4042996772890167648
+    second: sky_paralax-Sheet_26
+  - first:
+      213: 3800575520043111863
+    second: sky_paralax-Sheet_27
+  - first:
+      213: -485118820153608189
+    second: sky_paralax-Sheet_28
+  - first:
+      213: 1602916007812285686
+    second: sky_paralax-Sheet_29
+  - first:
+      213: -452296993524015544
+    second: sky_paralax-Sheet_30
+  - first:
+      213: 275434202446238604
+    second: sky_paralax-Sheet_31
+  - first:
+      213: -4697381585506627830
+    second: sky_paralax-Sheet_32
+  - first:
+      213: -8274275298225108835
+    second: sky_paralax-Sheet_33
+  - first:
+      213: 7360419697469638910
+    second: sky_paralax-Sheet_34
+  - first:
+      213: 3613963882846054951
+    second: sky_paralax-Sheet_35
+  - first:
+      213: 3459002370906615139
+    second: sky_paralax-Sheet_36
+  - first:
+      213: 8570491431220492287
+    second: sky_paralax-Sheet_37
+  - first:
+      213: -819933339549957252
+    second: sky_paralax-Sheet_38
+  - first:
+      213: 5773532363544308071
+    second: sky_paralax-Sheet_39
+  - first:
+      213: 817656789925180894
+    second: sky_paralax-Sheet_40
+  - first:
+      213: 1779146780989084043
+    second: sky_paralax-Sheet_41
+  - first:
+      213: -6671176467608277129
+    second: sky_paralax-Sheet_42
+  - first:
+      213: 9151769196088193738
+    second: sky_paralax-Sheet_43
+  - first:
+      213: -3530506447895630038
+    second: sky_paralax-Sheet_44
+  - first:
+      213: 4811753349615901232
+    second: sky_paralax-Sheet_45
+  - first:
+      213: 6082989047183278822
+    second: sky_paralax-Sheet_46
+  - first:
+      213: -168008544141088761
+    second: sky_paralax-Sheet_47
+  - first:
+      213: 7253948086755705148
+    second: sky_paralax-Sheet_48
+  - first:
+      213: -1521247466016134925
+    second: sky_paralax-Sheet_49
+  - first:
+      213: 4099058123565361308
+    second: sky_paralax-Sheet_50
+  - first:
+      213: 8627570910846698532
+    second: sky_paralax-Sheet_51
+  - first:
+      213: -3369582536094352701
+    second: sky_paralax-Sheet_52
+  - first:
+      213: -3196677863995476508
+    second: sky_paralax-Sheet_53
+  - first:
+      213: -4162950700334819847
+    second: sky_paralax-Sheet_54
+  - first:
+      213: -7316896851573088337
+    second: sky_paralax-Sheet_55
+  - first:
+      213: -2796184709236952970
+    second: sky_paralax-Sheet_56
+  - first:
+      213: 8894853967740277598
+    second: sky_paralax-Sheet_57
+  - first:
+      213: -1355208832076469908
+    second: sky_paralax-Sheet_58
+  - first:
+      213: 6721841191093436122
+    second: sky_paralax-Sheet_59
+  - first:
+      213: -8908071856565586621
+    second: sky_paralax-Sheet_60
+  - first:
+      213: -1832987549937515541
+    second: sky_paralax-Sheet_61
+  - first:
+      213: 7206333754178707664
+    second: sky_paralax-Sheet_62
+  - first:
+      213: 3794901226292959648
+    second: sky_paralax-Sheet_63
+  - first:
+      213: 4455403816815887240
+    second: sky_paralax-Sheet_64
+  - first:
+      213: 791773061410494963
+    second: sky_paralax-Sheet_65
+  - first:
+      213: 849342436701420120
+    second: sky_paralax-Sheet_66
+  - first:
+      213: -4933587214549109370
+    second: sky_paralax-Sheet_67
+  - first:
+      213: -8144225806022131242
+    second: sky_paralax-Sheet_68
+  - first:
+      213: -7351157498083851418
+    second: sky_paralax-Sheet_69
+  - first:
+      213: 3849829718375040111
+    second: sky_paralax-Sheet_70
+  - first:
+      213: -5507294554183075849
+    second: sky_paralax-Sheet_71
+  - first:
+      213: -5199764440179919705
+    second: sky_paralax-Sheet_72
+  - first:
+      213: 2108949405717056639
+    second: sky_paralax-Sheet_73
+  - first:
+      213: -7634527845263120899
+    second: sky_paralax-Sheet_74
+  - first:
+      213: 3300779338560754984
+    second: sky_paralax-Sheet_75
+  - first:
+      213: 1707345194615101876
+    second: sky_paralax-Sheet_76
+  - first:
+      213: -6707550196350981988
+    second: sky_paralax-Sheet_77
+  - first:
+      213: -4751357005514074551
+    second: sky_paralax-Sheet_78
+  - first:
+      213: 3307809965019097719
+    second: sky_paralax-Sheet_79
+  - first:
+      213: 2475063468054161486
+    second: sky_paralax-Sheet_80
+  - first:
+      213: -7669135848047793699
+    second: sky_paralax-Sheet_81
+  - first:
+      213: 7364331287650623460
+    second: sky_paralax-Sheet_82
+  - first:
+      213: 8306280938624157995
+    second: sky_paralax-Sheet_83
+  - first:
+      213: 1833136757525816518
+    second: sky_paralax-Sheet_84
+  - first:
+      213: -3120978505122823806
+    second: sky_paralax-Sheet_85
+  - first:
+      213: -1451109361222261741
+    second: sky_paralax-Sheet_86
+  - first:
+      213: -8933551914340734872
+    second: sky_paralax-Sheet_87
+  - first:
+      213: -5692904173655127640
+    second: sky_paralax-Sheet_88
+  - first:
+      213: 7302272486875828915
+    second: sky_paralax-Sheet_89
+  - first:
+      213: -5853301502338846982
+    second: sky_paralax-Sheet_90
+  - first:
+      213: 293282571095463996
+    second: sky_paralax-Sheet_91
+  - first:
+      213: 96287812961577190
+    second: sky_paralax-Sheet_92
+  - first:
+      213: 7039645152032151020
+    second: sky_paralax-Sheet_93
+  - first:
+      213: 5311550499010618385
+    second: sky_paralax-Sheet_94
+  - first:
+      213: 1375064707306109391
+    second: sky_paralax-Sheet_95
+  - first:
+      213: 485025091446059960
+    second: sky_paralax-Sheet_96
+  - first:
+      213: -1627500466278208294
+    second: sky_paralax-Sheet_97
+  - first:
+      213: 2087621046142643505
+    second: sky_paralax-Sheet_98
+  - first:
+      213: -6684750694920524763
+    second: sky_paralax-Sheet_99
+  - first:
+      213: 8953461030706993147
+    second: sky_paralax-Sheet_100
+  - first:
+      213: 3883477874755741957
+    second: sky_paralax-Sheet_101
+  - first:
+      213: 1078538078055236327
+    second: sky_paralax-Sheet_102
+  - first:
+      213: -5105139059644325084
+    second: sky_paralax-Sheet_103
+  - first:
+      213: -2631707733109722524
+    second: sky_paralax-Sheet_104
+  - first:
+      213: 3961229256168193324
+    second: sky_paralax-Sheet_105
+  - first:
+      213: 904412600957064683
+    second: sky_paralax-Sheet_106
+  - first:
+      213: -4264416612552708578
+    second: sky_paralax-Sheet_107
+  - first:
+      213: 8762949696785185274
+    second: sky_paralax-Sheet_108
+  - first:
+      213: -7629918863709576623
+    second: sky_paralax-Sheet_109
+  - first:
+      213: 5187935059933097077
+    second: sky_paralax-Sheet_110
+  - first:
+      213: -6877891437997797847
+    second: sky_paralax-Sheet_111
+  - first:
+      213: 7604661182134310026
+    second: sky_paralax-Sheet_112
+  - first:
+      213: -2405035098557730938
+    second: sky_paralax-Sheet_113
+  - first:
+      213: -488516650377906658
+    second: sky_paralax-Sheet_114
+  - first:
+      213: -8467755229339899987
+    second: sky_paralax-Sheet_115
+  - first:
+      213: -1035232957613537146
+    second: sky_paralax-Sheet_116
+  - first:
+      213: 6820428596069718818
+    second: sky_paralax-Sheet_117
+  - first:
+      213: 957791254216203676
+    second: sky_paralax-Sheet_118
+  - first:
+      213: -3499607019133279765
+    second: sky_paralax-Sheet_119
+  - first:
+      213: 4349420901812010544
+    second: sky_paralax-Sheet_120
+  - first:
+      213: 3715561885272121474
+    second: sky_paralax-Sheet_121
+  - first:
+      213: 9165960485161003679
+    second: sky_paralax-Sheet_122
+  - first:
+      213: -4918615789424766989
+    second: sky_paralax-Sheet_123
+  - first:
+      213: 111971366126124197
+    second: sky_paralax-Sheet_124
+  - first:
+      213: 1794095184729268109
+    second: sky_paralax-Sheet_125
+  - first:
+      213: 6070830323375825623
+    second: sky_paralax-Sheet_126
+  - first:
+      213: 4640606763224037148
+    second: sky_paralax-Sheet_127
+  - first:
+      213: -576834632470742609
+    second: sky_paralax-Sheet_128
+  - first:
+      213: 4278358633488253256
+    second: sky_paralax-Sheet_129
+  - first:
+      213: 4835364015559563866
+    second: sky_paralax-Sheet_130
+  - first:
+      213: 5250344317141280952
+    second: sky_paralax-Sheet_131
+  - first:
+      213: -6210179301111405936
+    second: sky_paralax-Sheet_132
+  - first:
+      213: 3830839669377788922
+    second: sky_paralax-Sheet_133
+  - first:
+      213: -5038867952632366583
+    second: sky_paralax-Sheet_134
+  - first:
+      213: -1096987488864909196
+    second: sky_paralax-Sheet_135
+  - first:
+      213: -2411348321434029687
+    second: sky_paralax-Sheet_136
+  - first:
+      213: -7391102171200332288
+    second: sky_paralax-Sheet_137
+  - first:
+      213: -4313970357252414307
+    second: sky_paralax-Sheet_138
+  - first:
+      213: 2111669790103267936
+    second: sky_paralax-Sheet_139
+  - first:
+      213: 7052448990550851435
+    second: sky_paralax-Sheet_140
+  - first:
+      213: 5578973041753605517
+    second: sky_paralax-Sheet_141
+  - first:
+      213: 2610655933980385418
+    second: sky_paralax-Sheet_142
+  - first:
+      213: -8880357584201308234
+    second: sky_paralax-Sheet_143
+  - first:
+      213: 3035097488733220687
+    second: sky_paralax-Sheet_144
+  - first:
+      213: 2137106267071403063
+    second: sky_paralax-Sheet_145
+  - first:
+      213: 8995196301955109668
+    second: sky_paralax-Sheet_146
+  - first:
+      213: 6862258098738897860
+    second: sky_paralax-Sheet_147
+  - first:
+      213: 8894372760403948158
+    second: sky_paralax-Sheet_148
+  - first:
+      213: 2697192695618835314
+    second: sky_paralax-Sheet_149
+  - first:
+      213: -1553415337368365895
+    second: sky_paralax-Sheet_150
+  - first:
+      213: 9188967155699589738
+    second: sky_paralax-Sheet_151
+  - first:
+      213: 3017256961310061952
+    second: sky_paralax-Sheet_152
+  - first:
+      213: 4051794321590277045
+    second: sky_paralax-Sheet_153
+  - first:
+      213: -6798701467791530143
+    second: sky_paralax-Sheet_154
+  - first:
+      213: 3850523477535088997
+    second: sky_paralax-Sheet_155
+  - first:
+      213: -9036478871258602487
+    second: sky_paralax-Sheet_156
+  - first:
+      213: -5375413683019805714
+    second: sky_paralax-Sheet_157
+  - first:
+      213: 5102461610972889551
+    second: sky_paralax-Sheet_158
+  - first:
+      213: 834375607343359851
+    second: sky_paralax-Sheet_159
+  - first:
+      213: 6999243653010878770
+    second: sky_paralax-Sheet_160
+  - first:
+      213: -5351077994550747329
+    second: sky_paralax-Sheet_161
+  - first:
+      213: 1882867633924513382
+    second: sky_paralax-Sheet_162
+  - first:
+      213: 7328983911697678059
+    second: sky_paralax-Sheet_163
+  - first:
+      213: -8110107924352521754
+    second: sky_paralax-Sheet_164
+  - first:
+      213: -2325466649275035768
+    second: sky_paralax-Sheet_165
+  - first:
+      213: 70279152534193619
+    second: sky_paralax-Sheet_166
+  - first:
+      213: 6645895663103260173
+    second: sky_paralax-Sheet_167
+  - first:
+      213: -4781366637468200945
+    second: sky_paralax-Sheet_168
+  - first:
+      213: -4550743692275067118
+    second: sky_paralax-Sheet_169
+  - first:
+      213: -2647920446645742455
+    second: sky_paralax-Sheet_170
+  - first:
+      213: 5688142499341221685
+    second: sky_paralax-Sheet_171
+  - first:
+      213: 7932062453373964447
+    second: sky_paralax-Sheet_172
+  - first:
+      213: -3256870923324371561
+    second: sky_paralax-Sheet_173
+  - first:
+      213: -703622969140836684
+    second: sky_paralax-Sheet_174
+  - first:
+      213: -3822228106507371417
+    second: sky_paralax-Sheet_175
+  - first:
+      213: -2283962231631265688
+    second: sky_paralax-Sheet_176
+  - first:
+      213: 9169562688411011723
+    second: sky_paralax-Sheet_177
+  - first:
+      213: 1897657464714032873
+    second: sky_paralax-Sheet_178
+  - first:
+      213: -6560474526929983490
+    second: sky_paralax-Sheet_179
+  - first:
+      213: 6686060374680905105
+    second: sky_paralax-Sheet_180
+  - first:
+      213: 2199224921182395601
+    second: sky_paralax-Sheet_181
+  - first:
+      213: 3770654308047576804
+    second: sky_paralax-Sheet_182
+  - first:
+      213: 4660418853882664505
+    second: sky_paralax-Sheet_183
+  - first:
+      213: -9189329170021994328
+    second: sky_paralax-Sheet_184
+  - first:
+      213: -3668855496654872267
+    second: sky_paralax-Sheet_185
+  - first:
+      213: 3841990691146454175
+    second: sky_paralax-Sheet_186
+  - first:
+      213: 4083635500153726551
+    second: sky_paralax-Sheet_187
+  - first:
+      213: 3322790810771723407
+    second: sky_paralax-Sheet_188
+  - first:
+      213: 593928484781619211
+    second: sky_paralax-Sheet_189
+  - first:
+      213: 2608135046876040455
+    second: sky_paralax-Sheet_190
+  - first:
+      213: -8607160469968216945
+    second: sky_paralax-Sheet_191
+  - first:
+      213: 602180917541872131
+    second: sky_paralax-Sheet_192
+  - first:
+      213: 7798933623113423534
+    second: sky_paralax-Sheet_193
+  - first:
+      213: -7543144494604135782
+    second: sky_paralax-Sheet_194
+  - first:
+      213: -3573232389325024703
+    second: sky_paralax-Sheet_195
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8703848f54b63e550800000000000000
+      internalID: 6188908261199589496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b5f5cc40cb27790800000000000000
+      internalID: -7533752497842726118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4360d3a56d145ec50800000000000000
+      internalID: 6693828810048865844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55e072f0790b8090800000000000000
+      internalID: -8031315129776675489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46e38248192c8a90800000000000000
+      internalID: -7310422910957263281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b7a66e2a7a68df0800000000000000
+      internalID: -178270817142277251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64466ea2a9ba4d150800000000000000
+      internalID: 5896526490767877190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2b86a01e9f7790800000000000000
+      internalID: -7530126257589376249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385548953c8c16010800000000000000
+      internalID: 1180445318693803395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ee466d84235ffc0800000000000000
+      internalID: -3461805450148385271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e68402921a694b0800000000000000
+      internalID: -5433978702368575886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cea16f978074c80800000000000000
+      internalID: -8338686865140159434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e65066d6d6a3c2c0800000000000000
+      internalID: -4412499768243104023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 5200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006e55b6a8b7f7020800000000000000
+      internalID: 2341726165692442112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad987eae252e54200800000000000000
+      internalID: 163785807225129434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327e4b3e7b9b65270800000000000000
+      internalID: 8238976767771338531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b8d6cbd41954850800000000000000
+      internalID: 6360649811790498564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c9d47f4d4dc1270800000000000000
+      internalID: 8222681030818896977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df89eba2c5fc2d8d0800000000000000
+      internalID: -2822966021646804739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae956f035da26730800000000000000
+      internalID: 3990942792055889572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1ec4b7022e9430800000000000000
+      internalID: 3791505352786059219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a767be6c906162c0800000000000000
+      internalID: -4440161532621920349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb30a354423584560800000000000000
+      internalID: 7298174611399246782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c743a38325b9a60800000000000000
+      internalID: 7681823990858677318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6717d7304c294550800000000000000
+      internalID: 6145491820850124650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe584be92a47f610800000000000000
+      internalID: 1654872931983449851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b4d31bd364e7c0800000000000000
+      internalID: -4042996772890167648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 4800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b517369c4b5eb430800000000000000
+      internalID: 3800575520043111863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30833ead0038449f0800000000000000
+      internalID: -485118820153608189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f44072dd93be3610800000000000000
+      internalID: 1602916007812285686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e1600e74e19b9f0800000000000000
+      internalID: -452296993524015544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c831dc3a2f982d300800000000000000
+      internalID: 275434202446238604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f8a65f55c8fceb0800000000000000
+      internalID: -4697381585506627830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98c08b847edb2d80800000000000000
+      internalID: -8274275298225108835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef84779b7b6752660800000000000000
+      internalID: 7360419697469638910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a612cf001672230800000000000000
+      internalID: 3613963882846054951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d6f1b6458d00030800000000000000
+      internalID: 3459002370906615139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff73d6c5c8080f670800000000000000
+      internalID: 8570491431220492287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7300acc8f20f94f0800000000000000
+      internalID: -819933339549957252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769a74c5815bf1050800000000000000
+      internalID: 5773532363544308071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed53dafa486e85b00800000000000000
+      internalID: 817656789925180894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 4400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81522c229cc0b810800000000000000
+      internalID: 1779146780989084043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f634e19583b63a0800000000000000
+      internalID: -6671176467608277129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2f23f789d910f70800000000000000
+      internalID: 9151769196088193738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f64ff471f110fc0800000000000000
+      internalID: -3530506447895630038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad6ae7d28c6c240800000000000000
+      internalID: 4811753349615901232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e283f13f4e1b6450800000000000000
+      internalID: 6082989047183278822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7086d378e1d1badf0800000000000000
+      internalID: -168008544141088761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31c2321a533ba460800000000000000
+      internalID: 7253948086755705148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f825a45d7173eae0800000000000000
+      internalID: -1521247466016134925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98eac845a7c2e830800000000000000
+      internalID: 4099058123565361308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424c287580a4bb770800000000000000
+      internalID: 8627570910846698532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca7cb64986dc31d0800000000000000
+      internalID: -3369582536094352701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5f13f5b6e13a3d0800000000000000
+      internalID: -3196677863995476508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f55411f46a3a36c0800000000000000
+      internalID: -4162950700334819847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 4000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafdfcf7419257a90800000000000000
+      internalID: -7316896851573088337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6707d8f52d4f139d0800000000000000
+      internalID: -2796184709236952970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5312248e8ed07b70800000000000000
+      internalID: 8894853967740277598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c692c975fb4513de0800000000000000
+      internalID: -1355208832076469908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade76bf03f6c84d50800000000000000
+      internalID: 6721841191093436122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345f0cbe7db206480800000000000000
+      internalID: -8908071856565586621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3c240f88bef86e0800000000000000
+      internalID: -1832987549937515541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0aabe5e5a020460800000000000000
+      internalID: 7206333754178707664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9d2ee1f823aa430800000000000000
+      internalID: 3794901226292959648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8830b386a26c4dd30800000000000000
+      internalID: 4455403816815887240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f998148761fcfa00800000000000000
+      internalID: 791773061410494963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab048327879cb00800000000000000
+      internalID: 849342436701420120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68534605190688bb0800000000000000
+      internalID: -4933587214549109370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d14b7587c5e9fe80800000000000000
+      internalID: -8144225806022131242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 3600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66343ce14317bf990800000000000000
+      internalID: -7351157498083851418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648c794bb75d6530800000000000000
+      internalID: 3849829718375040111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7797828c82293b0800000000000000
+      internalID: -5507294554183075849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a43e5b8ac9b6d7b0800000000000000
+      internalID: -5199764440179919705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c49019f4e744d10800000000000000
+      internalID: 2108949405717056639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5634bcf55bc0690800000000000000
+      internalID: -7634527845263120899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825dcd4f159becd20800000000000000
+      internalID: 3300779338560754984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9d00a9865b1b710800000000000000
+      internalID: 1707345194615101876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98e56172aef9e2a0800000000000000
+      internalID: -6707550196350981988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946154d2af9cf0eb0800000000000000
+      internalID: -4751357005514074551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ae57d33a3b7ed20800000000000000
+      internalID: 3307809965019097719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e482ae95c11395220800000000000000
+      internalID: 2475063468054161486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9a5ea3491c19590800000000000000
+      internalID: -7669135848047793699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efd5b8c94c533660800000000000000
+      internalID: 7364331287650623460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 3200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b298a4f4186d54370800000000000000
+      internalID: 8306280938624157995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4a9092b2c907910800000000000000
+      internalID: 1833136757525816518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2814682d59e00b4d0800000000000000
+      internalID: -3120978505122823806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3146a1a69bf9cdbe0800000000000000
+      internalID: -1451109361222261741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868a53badd5a50480800000000000000
+      internalID: -8933551914340734872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a982fcf0ddbef0b0800000000000000
+      internalID: -5692904173655127640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b297514322e65560800000000000000
+      internalID: 7302272486875828915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe25d5bb45e4cea0800000000000000
+      internalID: -5853301502338846982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3855fcc1f2f11400800000000000000
+      internalID: 293282571095463996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e826c77145165100800000000000000
+      internalID: 96287812961577190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce55da7d7f7d1b160800000000000000
+      internalID: 7039645152032151020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114a31c790b66b940800000000000000
+      internalID: 5311550499010618385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9382ed016351310800000000000000
+      internalID: 1375064707306109391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b33bca30c72bb600800000000000000
+      internalID: 485025091446059960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 2800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc64b3e2f4f969e0800000000000000
+      internalID: -1627500466278208294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d26f0e748b8fc10800000000000000
+      internalID: 2087621046142643505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c673909aefa33a0800000000000000
+      internalID: -6684750694920524763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7d795be55114c70800000000000000
+      internalID: 8953461030706993147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509a7e13d82e4e530800000000000000
+      internalID: 3883477874755741957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2073beaacb7fe00800000000000000
+      internalID: 1078538078055236327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423adecc217e629b0800000000000000
+      internalID: -5105139059644325084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462b85792cb4a7bd0800000000000000
+      internalID: -2631707733109722524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d3acf550d19f630800000000000000
+      internalID: 3961229256168193324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5de62087e1d8c00800000000000000
+      internalID: 904412600957064683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e658a4fafb1d4c0800000000000000
+      internalID: -4264416612552708578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af97f7532504c9970800000000000000
+      internalID: 8762949696785185274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152e98fe7351d1690800000000000000
+      internalID: -7629918863709576623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c6b1d337f3ff740800000000000000
+      internalID: 5187935059933097077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 2400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ec0728d22dc80a0800000000000000
+      internalID: -6877891437997797847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84515ecd0f298960800000000000000
+      internalID: 7604661182134310026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fae1ef1599f9ed0800000000000000
+      internalID: -2405035098557730938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e167c5bd1b07839f0800000000000000
+      internalID: -488516650377906658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da72d36ab7d7c7a80800000000000000
+      internalID: -8467755229339899987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6880ba52c1d12a1f0800000000000000
+      internalID: -1035232957613537146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd6a40ca707ae50800000000000000
+      internalID: 6820428596069718818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d58843212ca4d00800000000000000
+      internalID: 957791254216203676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1e81335f5ee6fc0800000000000000
+      internalID: -3499607019133279765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ef927144f3c5c30800000000000000
+      internalID: 4349420901812010544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28020a849d3509330800000000000000
+      internalID: 3715561885272121474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ae9477f78043f70800000000000000
+      internalID: 9165960485161003679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff85bcdff09dbbb0800000000000000
+      internalID: -4918615789424766989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac76fe3d5dcd8100800000000000000
+      internalID: 111971366126124197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 2000
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fd603a018e5e810800000000000000
+      internalID: 1794095184729268109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d26c74b30cef3450800000000000000
+      internalID: 6070830323375825623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c177e30a34fb66040800000000000000
+      internalID: 4640606763224037148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9307d35fbaef7f0800000000000000
+      internalID: -576834632470742609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8410bca6288cf5b30800000000000000
+      internalID: 4278358633488253256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a522b04f9aa1340800000000000000
+      internalID: 4835364015559563866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b862b3c658fcd840800000000000000
+      internalID: 5250344317141280952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09265cd14d201d9a0800000000000000
+      internalID: -6210179301111405936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbecb4f160e92530800000000000000
+      internalID: 3830839669377788922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a7f3d4b48521ab0800000000000000
+      internalID: -5038867952632366583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478c823e0b7b6c0f0800000000000000
+      internalID: -1096987488864909196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981b03f3a7b298ed0800000000000000
+      internalID: -2411348321434029687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e5cfa2cb78d6990800000000000000
+      internalID: -7391102171200332288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94a76401d2b124c0800000000000000
+      internalID: -4313970357252414307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 1600
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a670a6c782e4d10800000000000000
+      internalID: 2111669790103267936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f785ecdf45fd160800000000000000
+      internalID: 7052448990550851435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85443d3c6e7c6d40800000000000000
+      internalID: 5578973041753605517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80aaa77db9ea3420800000000000000
+      internalID: 2610655933980385418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b72c3bc3d1a2c480800000000000000
+      internalID: -8880357584201308234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4faf9ad515de1a20800000000000000
+      internalID: 3035097488733220687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7345d08b3d688ad10800000000000000
+      internalID: 2137106267071403063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42311f6c06b55dc70800000000000000
+      internalID: 8995196301955109668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3216c0263ab3f50800000000000000
+      internalID: 6862258098738897860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72b9c3b6e82f6b70800000000000000
+      internalID: 8894372760403948158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739321677a5e6520800000000000000
+      internalID: 2697192695618835314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d3832bf8217ae0800000000000000
+      internalID: -1553415337368365895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a43061f4c58f70800000000000000
+      internalID: 9188967155699589738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085f5fe58337fd920800000000000000
+      internalID: 3017256961310061952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 1200
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b35559d77dda3830800000000000000
+      internalID: 4051794321590277045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167eb5e390926a1a0800000000000000
+      internalID: -6798701467791530143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561e7cda3becf6530800000000000000
+      internalID: 3850523477535088997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 904ee4a085af79280800000000000000
+      internalID: -9036478871258602487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb84d64cb1b665b0800000000000000
+      internalID: -5375413683019805714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc14b1a1dc59fc640800000000000000
+      internalID: 5102461610972889551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67a3f4b13c449b00800000000000000
+      internalID: 834375607343359851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231fe12d40f422160800000000000000
+      internalID: 6999243653010878770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f94694ae62db5b0800000000000000
+      internalID: -5351077994550747329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e962f132a412a10800000000000000
+      internalID: 1882867633924513382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beefa4d7908c5b560800000000000000
+      internalID: 7328983911697678059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e923eedfcb137f80800000000000000
+      internalID: -8110107924352521754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f81f047684abfd0800000000000000
+      internalID: -2325466649275035768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d58ae1548ea9f000800000000000000
+      internalID: 70279152534193619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 800
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d063495e4e6fa3c50800000000000000
+      internalID: 6645895663103260173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00ddc0406c25adb0800000000000000
+      internalID: -4781366637468200945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217581609b288d0c0800000000000000
+      internalID: -4550743692275067118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984df201262b04bd0800000000000000
+      internalID: -2647920446645742455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f3901577750fe40800000000000000
+      internalID: 5688142499341221685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90919586c8541e60800000000000000
+      internalID: 7932062453373964447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79dc3ff96254dc2d0800000000000000
+      internalID: -3256870923324371561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b60e8433aa3c36f0800000000000000
+      internalID: -703622969140836684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c3d15c9c7b4fac0800000000000000
+      internalID: -3822228106507371417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c537837cbd40e0800000000000000
+      internalID: -2283962231631265688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a0a64cea4d04f70800000000000000
+      internalID: 9169562688411011723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6f5a1f865d55a10800000000000000
+      internalID: 1897657464714032873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7e6583d2384f4a0800000000000000
+      internalID: -6560474526929983490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195abab8c78a9cc50800000000000000
+      internalID: 6686060374680905105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 400
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc5340f967358e10800000000000000
+      internalID: 2199224921182395601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eed8f98d1e045430800000000000000
+      internalID: 3770654308047576804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936953271422da040800000000000000
+      internalID: 4660418853882664505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a034b89ec1f87080800000000000000
+      internalID: -9189329170021994328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531a5ad3d5b951dc0800000000000000
+      internalID: -3668855496654872267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9454288d2e715530800000000000000
+      internalID: 3841990691146454175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75666d2f9dcfba830800000000000000
+      internalID: 4083635500153726551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f841bf233acec1e20800000000000000
+      internalID: 3322790810771723407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08f4656fce0e3800800000000000000
+      internalID: 593928484781619211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d0b43b105f13420800000000000000
+      internalID: 2608135046876040455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c92ceb7293d8880800000000000000
+      internalID: -8607160469968216945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3022a90aa506b5800800000000000000
+      internalID: 602180917541872131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa96884fc06b3c60800000000000000
+      internalID: 7798933623113423534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a925da52c0e515790800000000000000
+      internalID: -7543144494604135782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sky_paralax-Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 0
+        width: 500
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1429c5ed214596ec0800000000000000
+      internalID: -3573232389325024703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

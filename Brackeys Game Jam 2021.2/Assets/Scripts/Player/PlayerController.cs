@@ -109,7 +109,7 @@ public class PlayerController : MonoBehaviour
     }
 
     private void OnTriggerStay2D(Collider2D other) {
-        if (other.tag == "Candy" && Input.GetKeyDown(KeyCode.F))
+        if (other.tag == "Candy" && Input.GetKey(KeyCode.F))
         {
             if (other.name == "Blue")
             {

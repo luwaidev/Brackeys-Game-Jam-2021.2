@@ -11,6 +11,8 @@ public class LevelManager : MonoBehaviour
     [Header("References")]
     public DoorObject[] doors;
     public TMP_Text scoreText;
+    public SpriteRenderer[] crosses;
+    public Sprite crossActive;
 
     [Header("Variables")]
     public int deliveries;
@@ -43,6 +45,7 @@ public class LevelManager : MonoBehaviour
         timeToNewDelivery += timeToNewDelivery*timeIncreasePercentage;
         deliveryTime += deliveryTime*deliveryTimeIncreasePercentage;
         failures += 1;
+        if (failures <= 3) crosses[failures-1].sprite = crossActive;
     }
     public void DecreaseTime(){
         timeToNewDelivery -= timeToNewDelivery*timeDecreasePercentage;
@@ -71,6 +74,7 @@ public class LevelManager : MonoBehaviour
                 doors[index].active = true;
                 doors[index].maxDeliveryTime = deliveryTime;
                 doorAvailable = false;
+                doors[index].requiredCandy = Random.Range(0,2);
                 break;
             }
             

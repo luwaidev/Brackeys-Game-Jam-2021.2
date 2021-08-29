@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     private GameObject mc;
     public GameObject pauseObject;
     public Canvas canvas;
+    public Animator fade;
     public float sceneTransitionTime;
 
     public bool sceneLoading;
@@ -44,26 +45,40 @@ public class GameManager : MonoBehaviour
     public void Play(){
         if (!sceneLoading) StartCoroutine(LoadNewScene("Game"));
     }
+    public void ReturnToMenu()
+    {
+        if (!sceneLoading) StartCoroutine(LoadNewScene("Menu"));
+    }
 
     public IEnumerator LoadNewScene(string sceneName){
         sceneLoading = true;
 
         mc = null;
+
+        fade.SetBool("Fade", true);
         yield return new WaitForSeconds(sceneTransitionTime);
         AsyncOperation load = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
         while (!load.isDone){
             yield return null;
         }
 
+        
+        fade.SetBool("Fade", false);
+
         yield return new WaitForEndOfFrame();
         
         if (SceneManager.GetActiveScene().name == "Game")
         {
             lm = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
-        }   else if (SceneManager.GetActiveScene().name == "Menu")
+        }   
+        else if (SceneManager.GetActiveScene().name == "Menu")
         {
             GameObject.Find("BestScore").GetComponent<TMP_Text>().text = bestScore.ToString();
-            GameObject.Find("PreviousScore").GetComponent<TMP_Text>().text = bestScore.ToString();
+            GameObject.Find("PreviousScore").GetComponent<TMP_Text>().text = previousScore.ToString();
+        }   
+        else if (SceneManager.GetActiveScene().name == "End")
+        {
+            GameObject.Find("PreviousScore").GetComponent<TMP_Text>().text = previousScore.ToString();
         }
         mc = Camera.main.gameObject;
         sceneLoading = false;
@@ -91,8 +106,11 @@ public class GameManager : MonoBehaviour
         {
             if (lm.deliveries > bestScore) bestScore = lm.deliveries;
             previousScore = lm.deliveries;
-            if (!sceneLoading && lm.failures >= 3) LoadNewScene("Menu");
+            print(lm.failures);
+            if (!sceneLoading && lm.failures >= 3) LoadNewScene("End");
         }
     }
+
+    
 
 }

@@ -24,7 +24,8 @@ public class ControlObjects : MonoBehaviour
 
     [Header("Idle and floating settings")]
     public Vector2 floatDirection;
-    
+    private Vector2 lastPosition;
+    public float changePositionDistance;
     public bool timerStarted;
 
     private void Awake() {
@@ -69,7 +70,7 @@ public class ControlObjects : MonoBehaviour
         if (MouseOnObject()) mouseSelected = true;
         if (Input.GetMouseButtonUp(0)) mouseSelected = false;
 
-        if (mouseSelected) MouseDragged(); // When the object is being dragged by the mouse
+        if (mouseSelected && !locked) MouseDragged(); // When the object is being dragged by the mouse
         else if (!locked && !MouseOnObject()) Floating(); // When the object is floating
         else if (locked) Locked();
 
@@ -94,7 +95,12 @@ public class ControlObjects : MonoBehaviour
     }
     void Floating()
     {
-        if (floatDirection == Vector2.zero) floatDirection = new Vector2(Random.Range(-100,100)/100f, Random.Range(-100,100)/100f);
+        if (floatDirection == Vector2.zero || Vector2.Distance(transform.position, lastPosition) > changePositionDistance) 
+        {
+            floatDirection = new Vector2(Random.Range(-100,100)/100f, Random.Range(-100,100)/100f);
+            lastPosition = transform.position;
+        }
+        
         rb.velocity = floatDirection*cm.floatingSpeed;
         anim.SetBool("Floating", true);
     }
@@ -127,11 +133,11 @@ public class ControlObjects : MonoBehaviour
         timerStarted = true;
         float time = Random.Range(cm.timerMinTime, cm.timerMaxTime);
 
-        yield return new WaitForSeconds(time - time/3);
+        yield return new WaitForSeconds(time - 5);
 
         anim.SetTrigger("Shake");
 
-        yield return new WaitForSeconds(time/3);
+        yield return new WaitForSeconds(5);
 
         timerStarted = false;
         input = "";

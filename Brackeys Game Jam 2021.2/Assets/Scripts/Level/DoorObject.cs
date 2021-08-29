@@ -21,6 +21,7 @@ public class DoorObject : MonoBehaviour
     public int requiredCandy;
     public float maxDeliveryTime;
     public float textTime;
+    private bool playing;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +38,9 @@ public class DoorObject : MonoBehaviour
                 active = false;
                 timeActive = 0;
                 lm.DecreaseTime();
+                if (requiredCandy == 0) player.hasRedCandy = false;
+                if (requiredCandy == 1) player.hasBlueCandy = false;
+                if (requiredCandy == 2) player.hasGreenCandy = false;
                 StartCoroutine(Timer());
             }
 
@@ -50,8 +54,12 @@ public class DoorObject : MonoBehaviour
                     lm.IncreaseTime();
                 }
             }
+        } else 
+        {
+            if (playerInRange && Input.GetKeyDown(KeyCode.F)){
+                if (!playing) StartCoroutine(AnimationTimer());
+            }
         }
-        
         
     }
     public void SetActive(){
@@ -61,15 +69,23 @@ public class DoorObject : MonoBehaviour
 
 
     private void OnTriggerEnter2D(Collider2D other) {
-        playerInRange = other.tag == "Player";
+        if (other.tag == "Player") playerInRange = true;
     }
     private void OnTriggerExit2D(Collider2D other) {
-        playerInRange = !(other.tag == "Player");
+        if (other.tag == "Player") playerInRange = false;
     }
 
     IEnumerator Timer(){
         textBox.text = lm.text[Random.Range(0, lm.text.Length)];
         yield return new WaitForSeconds(textTime);
         textBox.text = "";
+    }
+
+    IEnumerator AnimationTimer(){
+        playing = true;
+        active = false;
+        yield return new WaitForSeconds(1f);
+        active = true;
+        playing = false;
     }
 }
